@@ -207,7 +207,7 @@ gtrends <- function(
       interest_by_region = do.call(rbind, interest_by_region[names(interest_by_region) == "region"]),
       interest_by_dma = do.call(rbind, interest_by_region[names(interest_by_region) == "dma"]),
       interest_by_city = do.call(rbind, interest_by_region[names(interest_by_region) == "city"]),
-      related_topics = related_topics,
+    #  related_topics = related_topics,
       related_queries = related_queries
     )
   }else{
